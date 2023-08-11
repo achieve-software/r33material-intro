@@ -36,7 +36,7 @@ function AppbarComp() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:"secondary.main"}}>
+    <AppBar position="static" sx={{backgroundColor:"secondary.main", color:"green"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <ElectricCar sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
