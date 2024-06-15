@@ -24,8 +24,7 @@ const MakeStylesComp = () => {
   return (
     <Box sx={{ textAlign: 'center', mt: 2 }}>
       <Button className={classes.btn} variant="contained">
-        Click
-      </Button>
+        Click Button
     </Box>
   );
 };
